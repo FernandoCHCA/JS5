@@ -53,8 +53,6 @@ console.log("Divisores v3: " + divisoresV3(25));
 
 function calcular() {
     let numero = parseInt(document.getElementById("num").value);
-
     let resultado = (document.getElementById("resul"));
-    
     resultado.value = divisores(numero);
 }
